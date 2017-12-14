@@ -1,0 +1,17 @@
+flags: {}
+image:
+  container:
+    base: fpco/stack-run
+    name: use-cloudhaskell
+extra-package-dbs: []
+packages:
+- .
+docker:
+  enable: false
+extra-deps:
+- distributed-process-0.6.6
+- distributed-process-simplelocalnet-0.2.3.2
+- distributed-static-0.3.8
+- network-transport-tcp-0.5.1
+- rank1dynamic-0.3.3.0
+resolver: lts-3.22
