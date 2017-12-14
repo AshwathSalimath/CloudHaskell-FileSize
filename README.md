@@ -54,4 +54,26 @@ Graph also describes that the time taken is moving towards becoming a constant v
 
 ### Graph
 
-![Scikit-Learn Repo : Workers vs Time Taken (in seconds) Graph](workers.jpg)
+![Scikit-Learn Repo : Workers vs Time Taken (in seconds) Graph](ScikitLearnRepo.png)
+
+
+2. Results based on [CPython Repository](https://github.com/python/cpython):
+
+### Table
+
+| Numbers of Workers | Time Taken (s) |
+| ------------- | ------------- |
+| 1 | 166.120229 |
+| 2 | 85.422575 |
+| 3 | 58.505862 |
+| 4 | 45.780014 |
+| 5 | 38.798251 |
+| 6 | 32.376771 |
+| 7 | 27.826886 |
+| 8 | 25.544315 |
+| 9 | 23.161615 |
+| 10 | 21.176499 |
+
+### Graph
+
+![CPython Repo : Workers vs Time Taken (in seconds) Graph](CPythonRepo.png)
