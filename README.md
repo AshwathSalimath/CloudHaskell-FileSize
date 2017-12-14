@@ -35,3 +35,23 @@ We can infer from the following graphs that the Time Taken suddenly drops when w
 
 Graph also describes that the time taken is moving towards becoming a constant value. We can infer that increasing workers/nodes to complete the task/work will not matter that much. 
 
+1. Results based on [Scikit-Learn Repository](https://github.com/scikit-learn/scikit-learn):
+
+### Table
+
+| Number of Workers | Time Taken (s) |
+| ------------- | ------------- |
+| 1 | 49.045018 |
+| 2 | 26.336942 |
+| 3 | 18.700856 |
+| 4 | 14.982447 |
+| 5 | 12.711739 |
+| 6 | 11.308899 |
+| 7 | 10.133967 |
+| 8 | 9.472676 |
+| 9 | 8.686901 |
+| 10 | 8.215595 |
+
+### Graph
+
+![Scikit-Learn Repo : Workers vs Time Taken (in seconds) Graph](workers.jpg)
