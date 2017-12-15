@@ -19,7 +19,7 @@ import Data.Time.Clock
 getRecursiveContents :: FilePath -> IO [FilePath]
 getRecursiveContents topdir = do
     names <- getDirectoryContents topdir
-    let properNames = filter (\f -> head f /= '.' && f /= "argon") names
+    let properNames = filter (\f -> head f /= '.' ) names
     paths <- forM properNames $ \name -> do
         let path = topdir </> name
         isDirectory <- doesDirectoryExist path
